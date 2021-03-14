@@ -1,0 +1,75 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+@media #{$media_xxl} {
+	/* safari fix vertical */
+	.ua_safari .post_featured.hover_icon .icons > a {
+		line-height:3.4em;
+	}
+}
+
+
+@media #{$media_lg} {
+	/* Theme Hovers */
+	.post_featured.hover_border .post_info:before,
+	.post_featured.hover_border .post_info:after {
+		@include abs-pos(20px, 20px, 20px, 20px, '');
+	}
+	.post_featured.hover_border .post_info .post_info_back {
+		padding: 40px;
+	}
+
+	/* Button Hovers */
+	.sc_button_hover_arrow {
+		padding-left: 3em !important;
+		padding-right: 3em !important;
+	}
+	.sc_button_hover_arrow:hover:before,
+	.sc_button_hover_arrow.active:before,
+	.vc_active .sc_button_hover_arrow:before {
+		right: 1.2em !important;
+	}
+}
+
+
+@media #{$media_sm} {
+	/* Strike Hovers */
+	.strike_hover:after {
+		height: 2px;
+	}
+
+	/* Button Hovers */
+	.sc_button_hover_arrow {
+		padding-left: 2.8em !important;
+		padding-right: 2.8em !important;
+	}
+	.sc_button_hover_arrow:before {
+		font-size: 11px;
+	}
+	.sc_button_hover_arrow:hover .sc_button_text {
+		@include transform(translateX(-1.5em));
+	}
+
+	/* Shop */
+	.post_featured.hover_shop_buttons .icons a {
+		font-size: 13px !important;
+		padding: 0.4em 0.8em !important;
+	}
+
+}
+
+
+@media #{$media_xs} {
+	/* Theme Hovers */
+	.post_featured.hover_border .post_info .post_info_back	{
+		padding: 2.5em;
+	}
+	.post_featured.hover_border .post_info:before,
+	.post_featured.hover_border .post_info:after {
+		@include abs-pos(20px, 20px, 20px, 20px);
+	}
+	.post_featured.hover_border .post_info .post_title {
+		padding-bottom: 4px;
+	}
+}

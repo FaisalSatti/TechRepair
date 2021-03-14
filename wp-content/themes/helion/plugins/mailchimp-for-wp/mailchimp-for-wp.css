@@ -1,0 +1,107 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+form.mc4wp-form .mc4wp-form-fields {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="email"] {
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  font-size: 2.737em;
+  line-height: 1em;
+  font-weight: 700;
+  padding: 0;
+  height: 1.4em;
+  line-height: 1.4em;
+  margin-right: 2em;
+}
+
+form.mc4wp-form .mc4wp-form-fields input[type="email"],
+form.mc4wp-form .mc4wp-form-fields input[type="email"].filled {
+  border: none !important;
+}
+
+form.mc4wp-form :not(output):-moz-ui-invalid {
+  -webkit-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+form.mc4wp-form .mc4wp-form-fields button {
+  width: 4em;
+  height: 1em;
+  position: relative;
+  padding: 0;
+}
+
+form.mc4wp-form .mc4wp-form-fields button:before {
+  font-size: 2.3em;
+  font-weight: 400;
+  content: '\e997';
+  font-family: "fontello";
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  -webkit-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.ua_ie form.mc4wp-form .mc4wp-form-fields button:before {
+  font-size: 2.3rem;
+}
+
+form.mc4wp-form input[type="checkbox"] + label {
+  padding-left: 3.6em;
+  width: 24em;
+  margin-right: 8em;
+  font-size: 13px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+form.mc4wp-form input[type="checkbox"] + label:before {
+  width: 2.8em;
+  height: 2.8em;
+  line-height: 2.8em;
+  top: -4px;
+  font-size: 1em;
+}
+
+.ua_ie form.mc4wp-form input[type="checkbox"] + label:before {
+  font-size: 0.7rem;
+}
+
+form.mc4wp-form .mc4wp-alert {
+  font-size: 17px;
+  line-height: 22px;
+  font-weight: 400;
+  margin: 1.5em 0;
+  padding: 0.5em 1em;
+  line-height: 1.5em;
+  border: 1px solid #ddd;
+}
+
+form.mc4wp-form p {
+  margin: 0;
+}
+
+form.mc4wp-form p + p,
+form.mc4wp-form input + p {
+  margin-top: 1em;
+}
+
+/*# sourceMappingURL=mailchimp-for-wp.css.map */

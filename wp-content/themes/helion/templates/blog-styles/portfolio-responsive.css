@@ -1,0 +1,79 @@
+@media (max-width: 1679px) {
+  /* Blog layout: Portfolio */
+  .portfolio_4 .post_featured.hover_border .post_info .post_title {
+    font-size: 16px;
+  }
+
+  .portfolio_4 .post_featured.hover_border .post_info:before,
+  .portfolio_4 .post_featured.hover_border .post_info:after {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  .portfolio_4 .post_featured.hover_border .post_info .post_descr .post_meta {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1439px) {
+  /* Blog layout: Portfolio */
+  .portfolio_4 .post_featured.hover_border .post_info .post_title {
+    font-size: 20px;
+  }
+
+  .portfolio_4 .post_featured.hover_border .post_info:before,
+  .portfolio_4 .post_featured.hover_border .post_info:after {
+    top: 25px;
+    right: 25px;
+    bottom: 25px;
+    left: 25px;
+  }
+
+  .portfolio_4 .post_featured.hover_border .post_info .post_descr .post_meta {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1279px) {
+  /* Blog layout: Portfolio */
+  [class*="portfolio_"] .post_featured.hover_border .post_info:before,
+  [class*="portfolio_"] .post_featured.hover_border .post_info:after {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+
+  [class*="portfolio_"] .post_featured.hover_border .post_info .post_title {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1023px) {
+  /* Blog layout: Portfolio */
+  div[class*="portfolio_page_gallery_type_masonry_"] {
+    margin-right: -15px;
+  }
+
+  div[class*="portfolio_page_gallery_type_masonry_"] .portfolio_page_gallery_item {
+    padding: 0 15px 15px 0;
+  }
+}
+@media (max-width: 767px) {
+  /* Blog layout: Portfolio */
+  [class*="portfolio_"] .post_featured.hover_border .post_info .post_title {
+    font-size: 19px;
+  }
+
+  [class*="portfolio_"] .post_featured.hover_border .post_info .post_descr .post_meta {
+    font-size: 13px;
+  }
+}
+@media (max-width: 479px) {
+  /* Blog layout: Portfolio */
+  [class*="portfolio_"] .post_featured.hover_border .post_info .post_title {
+    font-size: 16px;
+    padding-bottom: 8px;
+  }
+}
+
+/*# sourceMappingURL=portfolio-responsive.css.map */

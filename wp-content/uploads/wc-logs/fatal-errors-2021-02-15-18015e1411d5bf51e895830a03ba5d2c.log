@@ -1,0 +1,14 @@
+2021-02-15T07:49:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\product-best-sellers.asset.php on line 1
+
+2021-02-15T09:23:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-02-15T09:29:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-02-15T09:31:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-02-15T09:43:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-02-15T10:08:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
+2021-02-15T10:21:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\updraftplus\admin.php on line 3
+

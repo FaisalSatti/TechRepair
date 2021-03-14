@@ -1,0 +1,215 @@
+/* Elementor styles
+----------------------------------------------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+/* Add negative margins to the our post container to align left and right side of the post content and header/footer */
+.post_content > .elementor {
+	margin-left:  -$elm_add_page_margins / 2;
+	margin-right: -$elm_add_page_margins / 2;
+}
+
+/* Add margins to "No Gap" on fullscreen for compensation of the previous rule */
+.body_style_fullscreen .elementor-section.elementor-section-full_width > .elementor-container.elementor-column-gap-no {
+	margin-left:  $elm_add_page_margins / 2;
+	margin-right: $elm_add_page_margins / 2;
+}
+
+/* Header fullwidth row has paddings, margin deleted  */
+.body_style_fullscreen header .elementor-section.elementor-section-full_width > .elementor-container.elementor-column-gap-no {
+	margin-left: 0;
+	margin-right: 0;
+}
+/* Boxed sections in the fullwidth pages */
+.body_style_fullwide .elementor-section.elementor-section-boxed > .elementor-container {
+	max-width: $page_fullwide - $paddings_fullwide * 2;
+}
+
+/* Default Elementor's grid */
+.elementor-column-gap-narrow > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding:  $elm_gap_narrow / 2;
+}
+.elementor-column-gap-default > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding:  $elm_gap_default / 2;
+}
+.elementor-column-gap-extended > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding:  $elm_gap_extended / 2;
+}
+.elementor-column-gap-wide > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding:  $elm_gap_wide / 2;
+}
+.elementor-column-gap-wider > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding:  $elm_gap_wider / 2;
+}
+.elementor-container > .elementor-row > .elementor-column > .elementor-element-populated {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/* Stretch columns container to remove white spaces from sides of the rows with gaps between columns */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container:not(.elementor-column-gap-no) {
+	max-width: none;
+	position: relative;
+}
+
+/* Narrow: 5px */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	width: $page + $elm_gap_narrow; 
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	width: $content + $elm_gap_narrow; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	left: -$elm_gap_narrow / 2;
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-narrow {
+	margin-left: -$elm_gap_narrow / 2;
+	margin-right: -$elm_gap_narrow / 2;
+}
+
+/* Default: 10px */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	width: $page + $elm_gap_default;
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	width: $content + $elm_gap_default;
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	left: -$elm_gap_default / 2;
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-default {
+	margin-left: -$elm_gap_default / 2;
+	margin-right: -$elm_gap_default / 2;
+}
+
+/* Extended: 15px */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+	width: $page + $elm_gap_extended; 
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {
+	width: $content + $elm_gap_extended; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {	
+	left: -$elm_gap_extended / 2; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-extended {	
+	margin-left: -$elm_gap_extended / 2; 
+	margin-right: -$elm_gap_extended / 2; 
+}
+
+/* Wide: 20px */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	width: $page + $elm_gap_wide; 
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	width: $content + $elm_gap_wide; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	left: -$elm_gap_wide / 2; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wide {
+	margin-left: -$elm_gap_wide / 2; 
+	margin-right: -$elm_gap_wide / 2; 
+}
+
+/* Wider: 30px */
+.elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+	width: $page + $elm_gap_wider; 
+}
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.sidebar_show .content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {
+	width: $content + $elm_gap_wider; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-boxed:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider,
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width:not(.elementor-section-stretched):not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {	
+	left: -$elm_gap_wider / 2; 
+}
+.content_wrap .elementor-section.elementor-section-justified.elementor-section-full_width.elementor-section-stretched:not(.elementor-inner-section) > .elementor-container.elementor-column-gap-wider {	
+	margin-left: -$elm_gap_wider / 2; 
+	margin-right: -$elm_gap_wider / 2; 
+}
+
+/* Elementor Spacer */
+.elementor-widget-spacer.sc_height_huge .elementor-spacer-inner {
+	height: 8.421rem !important;
+}
+.elementor-widget-spacer.sc_height_large .elementor-spacer-inner,
+.elementor-widget-spacer.sc_height_big .elementor-spacer-inner {
+	height: 5.263rem !important;
+}
+.elementor-widget-spacer.sc_height_medium .elementor-spacer-inner {
+	height: 3.158rem !important;
+}
+.elementor-widget-spacer.sc_height_small .elementor-spacer-inner {
+	height: 2.105rem !important;
+}
+.elementor-widget-spacer.sc_height_tiny .elementor-spacer-inner {
+	height: 1.053rem !important;
+}
+
+// Fixed col always
+.sc_column_fixed_always > .elementor-column-wrap {
+	position: sticky;
+	top: 0;
+	max-height: 100vh;
+	height: auto;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+	& .elementor-widget-wrap {
+		max-height: 100vh;
+	}
+	& .menu {
+		max-height: 60vh;
+		overflow-y: scroll;
+		-ms-overflow-style: none;   /*  hide scrollbar Explorer */
+		scrollbar-width: none;   /* hide scrollbar FireFox */
+		&::-webkit-scrollbar { width: 0; }   /* hide scrollbar Chrome */
+	}
+}
+.ua_safari .sc_column_fixed_always > .elementor-column-wrap {
+	position: -webkit-sticky;
+}
+
+.admin-bar .sc_column_fixed_always > .elementor-column-wrap {
+	max-height: calc(100vh - 32px);
+	top: 32px;
+	& .elementor-widget-wrap {
+		max-height: calc(100vh - 32px);
+	}
+}
+
+/* Play Button */
+.play_btn .elementor-icon {
+	letter-spacing: -3px;
+}
+.play_btn .elementor-icon i {
+	top: 1px;
+}
+.play_icon_center .elementor-icon {
+	letter-spacing: -3px;
+}
+
+/* Heading */
+.elementor-widget-heading .elementor-heading-title span {
+	@include font(0.62em, 1em, 700);
+	vertical-align: top;
+}
+
+
+
+

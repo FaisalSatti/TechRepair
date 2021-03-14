@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;uFACuF;AAenF,+BAAqB;EACjB,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EAIT,oEAAoB;IAChB,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,GAAG;EAGpB,iEAAiB;IACb,SAAS,EAAE,IAAI;IACf,WAAW,EAAE,KAAK;EAGtB,kEAAkB;IACd,SAAS,EAAE,IAAI",
+"sources": ["trx_popup.scss"],
+"names": [],
+"file": "trx_popup.css"
+}

@@ -1,0 +1,8 @@
+2021-02-16T06:31:04+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\revslider\includes\googlefonts.php on line 10
+
+2021-02-16T06:31:07+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\Requests\Transport\cURL.php on line 163
+
+2021-02-16T14:17:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-admin\includes\class-custom-background.php on line 14
+
+2021-02-16T14:17:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\header.php on line 9
+

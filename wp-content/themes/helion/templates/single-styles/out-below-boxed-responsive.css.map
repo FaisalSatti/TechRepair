@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,0BAAoB;EAChB,wBAAwB;EAC3B,+CAAgD;IAC/C,aAAa,EAAE,GAAG;;;AAKpB,yBAAoB;EAChB,wBAAwB;EAC3B,+CAAgD;IAC/C,aAAa,EAAE,GAAG",
+"sources": ["out-below-boxed-responsive.scss"],
+"names": [],
+"file": "out-below-boxed-responsive.css"
+}

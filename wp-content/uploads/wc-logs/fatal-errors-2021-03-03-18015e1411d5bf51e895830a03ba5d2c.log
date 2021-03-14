@@ -1,0 +1,112 @@
+2021-03-03T18:26:24+00:00 CRITICAL Uncaught Error: Class 'Elementor\Core\Experiments\Manager' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\elementor\includes\plugin.php:589
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\elementor\includes\plugin.php(531): Elementor\Plugin->init_components()
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Elementor\Plugin->init('')
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\testsite\wordpress\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\testsite\wordpress\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\testsite\wordpress\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\elementor\includes\plugin.php on line 589
+
+2021-03-03T18:31:45+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:32:02+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:39:28+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:40:51+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:41:09+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:41:26+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:45:06+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:46:06+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+
+2021-03-03T18:46:38+00:00 CRITICAL Uncaught Error: Class 'Elementor\Plugin' not found in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php:331
+Stack trace:
+#0 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(287): Essential_Addons_Elementor\Classes\Bootstrap->render_global_html('')
+#1 C:\xampp\htdocs\testsite\wordpress\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\testsite\wordpress\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php(3021): do_action('wp_footer')
+#4 C:\xampp\htdocs\testsite\wordpress\wp-content\themes\helion\footer.php(74): wp_footer()
+#5 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\testsite\wordpress\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\testsite\wordpress\wp-includes\general-template.php in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Elements.php on line 331
+

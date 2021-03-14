@@ -1,0 +1,20 @@
+/* Essential Addons for Elementor styles
+----------------------------------------------------------------- */
+/* Advance Tabs */
+.eael-advance-tabs .eael-tabs-nav > ul.eael-tab-inline-icon li {
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  text-align: left;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  -ms-transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.eael-advance-tabs .eael-tabs-nav > ul li > i {
+  -webkit-transition: color 0.3s ease;
+  -ms-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+/*# sourceMappingURL=essential-addons-for-elementor-lite.css.map */

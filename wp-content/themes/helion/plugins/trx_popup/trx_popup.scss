@@ -1,0 +1,38 @@
+/* ThemeREX Popup
+------------------------------------------------------------------------------------ */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+
+.trx_popup {
+
+    .trx_popup_close {
+
+        &:before,
+        &:after {
+        }
+    }
+
+    .trx_popup_container {
+        width: 400px;
+        height: 332px;
+
+        .trx_popup_inner {
+
+            .trx_popup_subtitle {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            .trx_popup_title {
+                font-size: 28px;
+                line-height: 1.2em;
+            }
+
+            .trx_popup_button {
+                font-size: 13px;
+            }
+        }
+    }
+}

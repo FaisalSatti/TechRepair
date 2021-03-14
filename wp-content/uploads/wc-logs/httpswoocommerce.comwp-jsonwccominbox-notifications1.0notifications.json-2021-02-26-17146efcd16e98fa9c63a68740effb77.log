@@ -1,0 +1,27 @@
+2021-02-26T10:23:56+00:00 ERROR Remote inbox notification data feed is not an array
+2021-02-26T10:24:03+00:00 ERROR Error getting remote inbox notification data feed
+2021-02-26T10:24:03+00:00 ERROR WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Operation timed out after 5004 milliseconds with 0 out of 0 bytes received
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+2021-02-26T10:39:12+00:00 ERROR Remote inbox notification data feed is not an array
+2021-02-26T10:42:44+00:00 ERROR Remote inbox notification data feed is not an array
+2021-02-26T10:42:48+00:00 ERROR Remote inbox notification data feed is not an array
+2021-02-26T11:11:58+00:00 ERROR Remote inbox notification data feed is not an array

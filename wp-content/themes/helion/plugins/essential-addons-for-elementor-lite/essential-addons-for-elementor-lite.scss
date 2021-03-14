@@ -1,0 +1,15 @@
+/* Essential Addons for Elementor styles
+----------------------------------------------------------------- */
+
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+
+/* Advance Tabs */
+.eael-advance-tabs .eael-tabs-nav > ul.eael-tab-inline-icon li {
+	@include flex-justify-content(flex-start);
+	text-align: left;
+	@include transition-colors;
+}
+.eael-advance-tabs .eael-tabs-nav > ul li > i {
+	@include transition-color;
+}

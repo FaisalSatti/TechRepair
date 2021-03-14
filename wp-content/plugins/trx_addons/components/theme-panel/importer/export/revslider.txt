@@ -1,0 +1,2 @@
+revslider/home-slider.zip
+revslider/test-slider.zip

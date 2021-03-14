@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;oEACoE;AAKpE,kBAAkB;AAClB,8DAA+D;ECsa5D,uBAAsB,EDraM,UAAU;ECmatC,aAAa,EAAqB,KAAK;EAKzC,eAAe,EDxae,UAAU;EACxC,UAAU,EAAE,IAAI;EC6cf,kBAAiB,EAAE,mEAAgG;EAAnH,cAAiB,EAAE,mEAAgG;EAEpH,UAAU,EAAE,mEAAO;;;AD5cpB,6CAA8C;EC0c5C,kBAAiB,EAAE,eAAgG;EAAnH,cAAiB,EAAE,eAAgG;EAEpH,UAAU,EAAE,eAAO",
+"sources": ["essential-addons-for-elementor-lite.scss","../../css/_mixins.scss"],
+"names": [],
+"file": "essential-addons-for-elementor-lite.css"
+}

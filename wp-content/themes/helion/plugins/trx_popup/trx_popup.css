@@ -1,0 +1,15 @@
+/* ThemeREX Popup
+------------------------------------------------------------------------------------ */
+.trx_popup .trx_popup_container {
+  width: 400px;
+  height: 332px; }
+  .trx_popup .trx_popup_container .trx_popup_inner .trx_popup_subtitle {
+    font-size: 14px;
+    font-weight: 700; }
+  .trx_popup .trx_popup_container .trx_popup_inner .trx_popup_title {
+    font-size: 28px;
+    line-height: 1.2em; }
+  .trx_popup .trx_popup_container .trx_popup_inner .trx_popup_button {
+    font-size: 13px; }
+
+/*# sourceMappingURL=trx_popup.css.map */

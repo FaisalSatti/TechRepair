@@ -1,0 +1,66 @@
+Version 1.1.0
+	Added:
+		- Compatibility with elegro Crypto Payment Plugin.
+		- Compatibility with YITH WooCommerce Compare Plugin.
+		- Compatibility with YITH WooCommerce Wishlist Plugin.
+		- Home Pages: Photographer, Copywriter. 
+		- Single portfolio: Style 4, Style 5
+		- Image hover effects Addon
+		- Compatibility with WP 5.5.1
+    - Compatibility with Woocommerce 4.5.2
+
+   Fixed:
+    - Update plugins to their latest versions
+    - Improve theme styles
+
+	Changed:
+	   - Update demo data
+	   - Theme content
+
+	Removed
+	   - Skin folder
+	   - Cf7 Data Picker Plugin
+
+Version 1.0.5
+  Fixed:
+		- Themerex Addons vulnerability fixed.
+		- Compatibility with Woocommerce Wishlist.
+
+    Added:
+			- Home Pages: Musician, Videographer. 
+			- Compatibility with ThemeREX Updater Plugin.
+			- Compatibility with Essential Addons for Elementor Plugin.
+
+Version 1.0.4
+	Changed:
+	    - TRX Popup update
+
+Version 1.0.3
+          	Fixed:
+          		- Themerex Addons vulnerability fixed.
+          		- Compatibility with Woocommerce Wishlist.
+
+          	Added:
+		- Home Pages: Musician, Videographer. 
+		- Compatibility with ThemeREX Updater Plugin.
+		- Compatibility with Essential Addons for Elementor Plugin.
+
+Version 1.0.2 
+	Changed:
+		- Animation updated.
+	
+	Fixed:
+		- Compatibility with WP 5.3
+
+Version 1.0.1 
+	Added:
+		- ThemeREX Popup Plugin added.
+	
+Release – v.1.0 (1.0.66) -    Plugin TRX Addons has been modified.
+							  1. Hover Image on Blogger added.
+							  2. Gallery option 'inside' for cpt portfolio added.
+							  3. Some fixes portfolio single.
+							  4. Portfolio projects on single team added.
+							  5. Single Services check added.
+							  6. Admin panel styles updated.
+

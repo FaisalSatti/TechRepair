@@ -1,0 +1,105 @@
+@media (max-width: 1279px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt .post_header .post_price {
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+
+  .post_layout_excerpt.post_item .more-link {
+    padding: 0;
+    font-size: 15px;
+  }
+
+  .post_layout_excerpt.sticky {
+    padding: 2em;
+  }
+}
+@media (max-width: 1023px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt + .post_layout_excerpt {
+    margin-top: 2em;
+  }
+
+  .post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+    padding-top: 2em;
+  }
+
+  .post_layout_excerpt .post_title + .post_meta {
+    margin-top: 1.5em;
+  }
+
+  .post_layout_excerpt .post_header + .post_content {
+    margin-top: 1em;
+  }
+
+  .post_layout_excerpt .post_header .post_price {
+    font-size: 1.75em;
+    line-height: 1.5em;
+  }
+
+  .post_layout_excerpt.post_format_gallery .slider_pagination_wrap {
+    display: block;
+  }
+
+  .post_layout_excerpt.post_item .more-link {
+    padding: 0;
+  }
+}
+@media (max-width: 767px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt + .post_layout_excerpt {
+    margin-top: 2em;
+  }
+
+  .post_layout_excerpt:not(.sticky) + .post_layout_excerpt:not(.sticky) {
+    padding-top: 2.2em;
+  }
+
+  .post_layout_excerpt .post_header .post_price {
+    position: static;
+    right: auto;
+    top: auto;
+    margin-top: 0.3em;
+  }
+
+  .post_layout_excerpt .post_title + .post_meta {
+    margin-top: 1em;
+  }
+
+  .post_layout_excerpt .post_header + .post_content {
+    margin-top: 1em;
+  }
+
+  .post_layout_excerpt.post_item .more-link {
+    padding: 0;
+    font-size: 13px;
+  }
+
+  .post_layout_excerpt .post_title {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .post_layout_excerpt .more-link .more-text-icon {
+    width: 2.4em;
+    height: 2.4em;
+    line-height: 2.4em;
+  }
+
+  .post_layout_excerpt .more-link .more-text-icon:before {
+    font-size: 13px;
+  }
+
+  .post_layout_excerpt.sticky {
+    padding: 1.5em;
+  }
+}
+@media (max-width: 479px) {
+  /* Blog layout: Excerpt */
+  .post_layout_excerpt .post_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*# sourceMappingURL=excerpt-responsive.css.map */

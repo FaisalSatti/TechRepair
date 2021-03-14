@@ -1,0 +1,4 @@
+2021-03-01T00:00:35+00:00 CRITICAL Maximum execution time of 900 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php on line 110
+
+2021-03-01T00:28:26+00:00 CRITICAL Maximum execution time of 900 seconds exceeded in C:\xampp\htdocs\testsite\wordpress\wp-includes\wp-db.php on line 2056
+
